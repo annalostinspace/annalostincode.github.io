@@ -1,0 +1,14 @@
+.habit-container {
+  margin: 30px auto;
+
+  display: flex;
+  justify-content: center;
+}
+
+.habit-card {
+  width: 60%;
+}
+
+mat-card-content {
+  padding-top: 10px;
+}

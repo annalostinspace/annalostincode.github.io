@@ -1,0 +1,7 @@
+<mat-grid-list class="calendar-days" cols="7" rowHeight="4:3">
+  @for (number of month; track number) {
+    <mat-grid-tile [style.background-color]="'var(--mat-sys-primary-fixed-dim)'">
+      <p>{{number.toString()}}</p>
+    </mat-grid-tile>
+  }
+</mat-grid-list>
